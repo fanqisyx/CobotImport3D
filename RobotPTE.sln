@@ -1,0 +1,52 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CorePlatform", "CorePlatform\CorePlatform.csproj", "{17B1FD58-6BBC-48D3-BC6C-CB2735685C2B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Plugin.Sample", "Plugin.Sample\Plugin.Sample.csproj", "{65803DA6-AC8E-4044-A4FB-079C08034F6F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Plugin.IO", "Plugin.IO\Plugin.IO.csproj", "{6BA23168-4166-4A6E-9164-96A0B7BEA193}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Plugin.RobotCommunicator", "Plugin.RobotCommunicator\Plugin.RobotCommunicator.csproj", "{58D2873F-927A-4E48-9D05-300DC053543E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ScriptingHost", "ScriptingHost\ScriptingHost.csproj", "{270E4F80-F501-4D36-8DC6-E4C10AC0AEF5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RobotPTE.UI", "RobotPTE.UI\RobotPTE.UI.csproj", "{F7C376B0-629B-4626-8107-70DD12D859C3}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{17B1FD58-6BBC-48D3-BC6C-CB2735685C2B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{17B1FD58-6BBC-48D3-BC6C-CB2735685C2B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{17B1FD58-6BBC-48D3-BC6C-CB2735685C2B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{17B1FD58-6BBC-48D3-BC6C-CB2735685C2B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{65803DA6-AC8E-4044-A4FB-079C08034F6F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{65803DA6-AC8E-4044-A4FB-079C08034F6F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{65803DA6-AC8E-4044-A4FB-079C08034F6F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{65803DA6-AC8E-4044-A4FB-079C08034F6F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6BA23168-4166-4A6E-9164-96A0B7BEA193}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6BA23168-4166-4A6E-9164-96A0B7BEA193}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6BA23168-4166-4A6E-9164-96A0B7BEA193}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6BA23168-4166-4A6E-9164-96A0B7BEA193}.Release|Any CPU.Build.0 = Release|Any CPU
+		{58D2873F-927A-4E48-9D05-300DC053543E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{58D2873F-927A-4E48-9D05-300DC053543E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{58D2873F-927A-4E48-9D05-300DC053543E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{58D2873F-927A-4E48-9D05-300DC053543E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{270E4F80-F501-4D36-8DC6-E4C10AC0AEF5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{270E4F80-F501-4D36-8DC6-E4C10AC0AEF5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{270E4F80-F501-4D36-8DC6-E4C10AC0AEF5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{270E4F80-F501-4D36-8DC6-E4C10AC0AEF5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F7C376B0-629B-4626-8107-70DD12D859C3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F7C376B0-629B-4626-8107-70DD12D859C3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F7C376B0-629B-4626-8107-70DD12D859C3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F7C376B0-629B-4626-8107-70DD12D859C3}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
