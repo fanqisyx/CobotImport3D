@@ -1,0 +1,26 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "cobot-importer-3d"
+version = "0.1.0"
+description = "3D path planning and control tool for collaborative robots"
+authors = [{name = "OpenAI Assistant"}]
+dependencies = [
+    "PySide6>=6.6",
+    "pyqtgraph>=0.13",
+    "numpy>=1.24",
+    "trimesh>=4.0",
+    "scipy>=1.10",
+]
+requires-python = ">=3.10"
+
+[project.optional-dependencies]
+dev = ["pytest>=7.0"]
+
+[project.scripts]
+cobot-importer = "cobot_importer.app:main"
+
+[tool.pytest.ini_options]
+pythonpath = ["src"]
