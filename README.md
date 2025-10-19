@@ -27,6 +27,8 @@ python -m cobot_importer.app
 
 或直接使用 `cobot-importer` 可执行入口。
 
+也可以在项目根目录下双击或运行 `start.py`，该脚本会自动将本地 `src/` 加入 `PYTHONPATH` 并启动图形界面，实现“一键启动”。
+
 ## 主要工作流
 
 1. **新建或打开项目**：菜单栏 → 文件。
